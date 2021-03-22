@@ -1,6 +1,19 @@
-/* sezione jumbotron */
+
+
 .my-jumbotron {
     background-image: url(img/bg-banner-home.jpg);
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+
+.aziende-varie {
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.funzioni, .carousel, .benefits, .speed-test, .testimonials, .call-to-action, footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .inline-block {
@@ -34,7 +47,7 @@
 }
 
 .min-h {
-    min-height: 160px;
+    min-height: 170px;
 }
 
 .carousel-size {
@@ -64,8 +77,145 @@
 
   .navbar-brand .img-responsive {
       max-width: 150px;
-      margin-right: 80px;
+      margin-right: 50px;
   }
+
+  .white {
+      color: white;
+  }
+
+  .grigio {
+      color: #7a859d;
+  }
+
+  .grigino {
+      color: #aab8df;
+  }
+
+  .m-10 {
+      color: #00bdcd;
+      margin-right: 10px;
+  }
+
+  .margin-10 {
+      margin-right: 10px;
+  }
+
+  .call-to-action, .speed-test {
+      background-image: linear-gradient(#0048c6, #001e9a)
+  }
+  
+  .table>tbody>tr>td.no-border {
+      border: none;
+  }
+
+  .giant-title {
+      font-size: 4em;
+  }
+
+  .my-panel {
+      padding-bottom: 10px;
+  }
+
+  .blue-title {
+      color: #1073ff;
+      margin-top: 0px;
+  }
+
+  .my-panel input {
+      padding: 10px 5px;
+      border-radius: 5px;
+      border: 1px solid rgba(0, 0, 0, 0.1);
+      margin: 10px 0;
+  }
+
+  .bkg-azzurro {
+      background-color: #579aff;
+  }
+
+  .panel-btn {
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1.1em;
+    margin: 10px 0;
+  }
+  
+  .shadow {
+      box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.1);
+  }
+
+  .terms {
+      display: block;
+      margin-top: 10px;
+      font-weight: 550;
+  }
+
+  .m-bot-30 {
+      margin-bottom: 30px;
+  }
+
+  .m-bot-20 {
+    margin-bottom: 20px;
+}
+
+
+  .strong {
+      font-weight: bold;
+  }
+
+  .m-bot-10 {
+      margin-bottom: 10px;
+  }
+
+  .m-bot-50 {
+      margin-bottom: 70px;
+  }
+
+  .glyph-size {
+      font-size: 2em
+  }
+
+  .r-l-margin {
+      margin-left: 20px ;
+      margin-right: 20px;
+  }
+
+  .my-img-resize {
+      max-width: 300px;
+  }
+
+  .testimonials .panel {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        margin-bottom: 30px;
+        margin-top: 50px;
+  }
+
+  .cta-btn {
+      padding: 10px 10px;
+      border-radius: 5px;
+      background-color: white;
+      color: #3589ff;
+      border: 1px solid black;
+  }
+
+  ul.lead li {
+      margin-right: 10px;
+  }
+
+  footer ul li a, footer ul li i, footer p {
+      color: gray;
+  }
+
+  .col-sm-6 li {
+      margin-top: 10px;
+  }
+
+
+  
+
+  
 
   
 

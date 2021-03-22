@@ -26,18 +26,16 @@
                     </a>
                 </div>
 
-                <div class="collapse navbar-collapse pull-left">
-                    <div class="nav navbar-nav pull-left"></div>
+                <div class="collapse navbar-collapse">
+                    <div class="nav navbar-nav"></div>
                         <a href="" class="navbar-text">Products <span class="glyphicon glyphicon-menu-down"></span></a>
                         <a href="" class="navbar-text">Customers</a>
                         <a href="" class="navbar-text">Community <span class="glyphicon glyphicon-menu-down"></span></a>
                         <a href="" class="navbar-text">Pricing</a>
-                    </div>
-                    <div class="nav navbar-nav pull-right">
-                        <a href="" class="navbar-text">Docs</a>
-                        <a href="" class="navbar-text">Support <span class="glyphicon glyphicon-menu-down"></span></a>
-                        <a href="" class="navbar-text">Login</a>
-                        <a href="" class="navbar-text"> Sign Up</a>
+                        <a href="" class="navbar-text pull-right">Docs</a>
+                        <a href="" class="navbar-text pull-right">Support <span class="glyphicon glyphicon-menu-down"></span></a>
+                        <a href="" class="navbar-text pull-right">Login</a>
+                        <a href="" class="navbar-text pull-right"> Sign Up</a>
                     </div>
                 </div>
 
@@ -52,30 +50,30 @@
             <div class="container">
                 <div class="row">
                     <div class="col-sm-6">
-                        <h1>
+                        <h1 class="white giant-title">
                             The simplest cloud platform for developers & teams
                         </h1>
-                        <p>
+                        <p class="grigino lead">
                             Deploy, manage, and scale clous applications faster and more efficiently on DigitalOcean. We make managing infrastructure easy for teams and businesses, whether you're running one virtual machine or ten thousand.
                         </p>
                     </div>
 
                     <div class="col-sm-6">
-                        <div class="panel panel-default">
+                        <div class="panel panel-default my-panel">
                             <div class="panel-body text-center">
-                                <h1>Deploy your apps in seconds.</h1>
-                                <h1>Get started now.</h1>
+                                <h1><strong>Deploy your apps in seconds.</strong></h1>
+                                <h1 class="blue-title"><strong>Get started now.</strong></h1>
                                 <input type="email" placeholder="Email" class="btn-block">
                                 <input type="password" placeholder="Password"  class="btn-block">
-                                <button class="btn-block">
+                                <div class="white bkg-azzurro panel-btn">
                                     Create your account
-                                </button>
-                                <button class="btn-block">
-                                    <img src="img/google-icon.png" alt="" class="mw-20 float-l">
+                                </div>
+                                <div class="grigio panel-btn shadow">
+                                    <img src="img/google-icon.png" alt="" class="mw-20 pull-left">
                                     Sign up with google
-                                </button>
-                                <p>
-                                    By signing here you agree to the <a href="">Terms of Service</a>
+                                </div>
+                                <p class="terms">
+                                    By signing here you agree to the <a href="" ><u>Terms of Service</u></a>
                                 </p>
                             </div>
                         </div>
@@ -87,8 +85,8 @@
 <!-- inizio sezione Aziende Varie (Main)-->
         <section class="aziende-varie">
             <div class="container text-center">
-                <p>INNOVATIVE BUSINESSES TRUST DIGITALOCEAN</p>
-                <div class="inline-block">
+                <p class="grigio m-bot-30"><strong>INNOVATIVE BUSINESSES TRUST DIGITALOCEAN</strong></p>
+                <div class="inline-block m-bot-30">
                     <img src="img/docker.svg" alt="">
                     <img src="img/gitlab.svg" alt="">
                     <img src="img/slack.svg" alt="">
@@ -96,7 +94,10 @@
                     <img src="img/hashicorp.svg" alt="">
                     <img src="img/splunk.svg" alt="">
                 </div>
-                <a href="">View customer stories</a><a href="">></a>
+                <div>
+                <a href="" class="margin-10"><strong>View customer stories</strong></a><a href="">></a>
+                </div>
+                
             </div>
         </section>
 
@@ -105,9 +106,9 @@
             <div class="container">
                 <div class="text-center">
                     <h1>
-                        Deploy and scale seamlessly
+                        <strong>Deploy and scale seamlessly</strong> 
                     </h1>
-                    <p>
+                    <p class="grigio lead">
                         Our optimized configuration process saves your team time when running and scaling distributed applications, AI & machine learning workloads, hosted services, client websites, or CI/CD environments.
                     </p>
                 </div>
@@ -115,7 +116,7 @@
             
                 <div class="row">
                     <div class="col-sm-offset-1 col-sm-3">
-                        <ul class="list-group">
+                        <ul class="list-group grigio lead">
                             <li class="list-group-item">Deploy</li>
                             <li class="list-group-item">Manage</li>
                             <li class="list-group-item">Secure</li>
@@ -126,24 +127,24 @@
 
                     <div class="col-sm-8">
                         <div class="col-sm-6 min-h">
-                            <img src="img/cluster-deploy.svg" alt="">
-                            <h4>Cluster deployments</h4>
-                            <p>Provizion multiple Droplets (virtual machines) in seconds with our control panel, CLI, or directly against our API.</p>
+                            <img src="img/cluster-deploy.svg" alt="" class="m-bot-10">
+                            <h4 class="strong" class="strong">Cluster deployments</h4>
+                            <p class="grigio strong">Provision multiple Droplets (virtual machines) in seconds with our control panel, CLI, or directly against our API.</p>
                         </div>
                         <div class="col-sm-6 min-h">
-                            <img src="img/optimized-compute.svg" alt="">
-                            <h4>Optimized computer types</h4>
-                            <p>Get the computer resources you need with Standard or Optimized Droplets</p>
+                            <img src="img/optimized-compute.svg" alt="" class="m-bot-10">
+                            <h4 class="strong">Optimized computer types</h4>
+                            <p class="grigio strong">Get the computer resources you need with Standard or Optimized Droplets</p>
                         </div>
                         <div class="col-sm-6 min-h">
-                            <img src="img/one-click.svg" alt="">
-                            <h4>One click apps</h4>
-                            <p>Skip the install and configuration process with pre-built open source images supporting Rails, Cassandra, Docker, and more.</p>
+                            <img src="img/one-click.svg" alt="" class="m-bot-10">
+                            <h4 class="strong">One click apps</h4>
+                            <p class="grigio strong">Skip the install and configuration process with pre-built open source images supporting Rails, Cassandra, Docker, and more.</p>
                         </div>
                         <div class="col-sm-6 min-h">
-                            <img src="img/global.svg" alt="">
-                            <h4>Global availability</h4>
-                            <p>Deploy to any of our data center regions around the world</p>
+                            <img src="img/global.svg" alt="" class="m-bot-10">
+                            <h4 class="strong">Global availability</h4>
+                            <p class="grigio strong">Deploy to any of our data center regions around the world</p>
                         </div>
                     </div>
                 </div>
@@ -153,22 +154,22 @@
 <!-- inizio sezione Carousel (Main)-->
         <section class="carousel">
             <div class="container text-center">
-                <h1>
+                <h1 class="strong m-bot-30">
                     Designed for developers
                 </h1>
-                <p>
-                    build more and spend less time managing your infrastructure with our easy-to-use control panel and API
+                <p class="grigio lead m-bot-50">
+                    Build more and spend less time managing your infrastructure with our easy-to-use control panel and API
                 </p>
 
                 <div class="center-block">
                     <div class="inline-block v-al-m">
                         <span class="
-                        glyphicon glyphicon-chevron-left"></span>
+                        glyphicon glyphicon-chevron-left glyph-size grigio"></span>
                     </div>
-                    <div class="inline-block v-al-m">
+                    <div class="inline-block v-al-m r-l-margin">
                         <div class="carousel-size">
-                            <img src="img/slide.jpg" alt="" class="img-responsive">
-                            <p>Create computer servers in 55 seconds or less.</p>
+                            <img src="img/slide.jpg" alt="" class="img-responsive m-bot-20">
+                            <p><strong>Create computer servers in 55 seconds or less.</strong></p>
                         </div>
                         <div> 
                             <span class="dot blue"></span>
@@ -178,7 +179,7 @@
                         </div>
                     </div>
                     <div class="inline-block v-al-m">
-                        <span class="glyphicon glyphicon-chevron-right"></span>
+                        <span class="glyphicon glyphicon-chevron-right glyph-size"></span>
                     </div>
                 </div>
             </div>
@@ -187,26 +188,26 @@
 <!-- inizio sezione Benefits (Main)-->
         <section class="benefits">
             <div class="container">
-                <h1 class="text-center">The features your business needs</h1>
+                <h1 class="text-center strong m-bot-30">The features your business needs</h1>
 
                 <div class="row">
                     <div class="col-sm-4">
-                        <img src="img/pred-pricing.svg" alt="">
-                        <h4>Predictable Pricing</h4>
-                        <p>Leave complex pricing structures behind. Always know what you'll pay per month with a falt, industry-leading pricing structure.</p>
-                        <a href="">Pricing</a><a href="">></a>
+                        <img class="m-bot-10" src="img/pred-pricing.svg" alt="">
+                        <h4 class="strong">Predictable Pricing</h4>
+                        <p class="grigio">Leave complex pricing structures behind. Always know what you'll pay per month with a falt, industry-leading pricing structure.</p>
+                        <a href="" class="margin-10 strong">Pricing</a><a href="" class="margin-10 strong">></a>
                     </div>
                     <div class="col-sm-4">
-                        <img src="img/world-class.svg" alt="">
-                        <h4>World-class service</h4>
-                        <p>free round-the-clocl technical support for all customers. You'll feel the love.</p>
-                        <a href="">Support</a><a href="">></a>
+                        <img class="m-bot-10" src="img/world-class.svg" alt="">
+                        <h4 class="strong">World-class service</h4>
+                        <p class="grigio">Free round-the-clocl technical support for all customers. You'll feel the love.</p>
+                        <a href="" class="margin-10 strong">Support</a><a href="" class="margin-10 strong">></a>
                     </div>
                     <div class="col-sm-4">
-                        <img src="img/reliable-platform.svg" alt="">
-                        <h4>Reliable platform</h4>
-                        <p>More then 100,000 developers teams worldwide trust DigitalOcean to support their business with a 99.99% uptime SLA for all services.</p>
-                        <a href="">Security</a><a href="">></a>
+                        <img class="m-bot-10" src="img/reliable-platform.svg" alt="">
+                        <h4 class="strong">Reliable platform</h4>
+                        <p class="grigio">More then 100,000 developers teams worldwide trust DigitalOcean to support their business with a 99.99% uptime SLA for all services.</p>
+                        <a href=""class="margin-10 strong">Security</a><a href=""class="margin-10 strong">></a>
                     </div>
                 </div>
             </div>
@@ -215,57 +216,57 @@
 <!-- inizio sezione Speed Test (Main)-->
         <section class="speed-test">
             <div class="container">
-                <h1 class="text-center">Service your customers around the world from 12 regions.</h1>
+                <h1 class="text-center white strong">Service your customers around the world from 12 regions.</h1>
 
                 <div class="row">
                     <div class="col-sm-6">
                         <table class="table">
                             <tr>
-                                <td>AMS2</td>
-                                <td>Amsterdam, Nethelands</td>
-                                <td>
-                                    <a href="" class="pull-right" >></a>
-                                    <a href="" class="pull-right">Test speed</a>
+                                <td class="white no-border">AMS2</td>
+                                <td class="grigino no-border">Amsterdam, Nethelands</td>
+                                <td class="no-border">
+                                    <a href="" class="pull-right m-10" >></a>
+                                    <a href="" class="pull-right m-10">Test speed</a>
                                 </td>
                             </tr>
                             <tr>
-                                <td>AMS3</td>
-                                <td>Amsterdam, Nethelands</td>
+                                <td class="white">AMS3</td>
+                                <td class="grigino">Amsterdam, Nethelands</td>
                                 <td>
-                                    <a href="" class="pull-right" >></a>
-                                    <a href="" class="pull-right">Test speed</a>
+                                    <a href="" class="pull-right m-10" >></a>
+                                    <a href="" class="pull-right m-10">Test speed</a>
                                 </td>
                             </tr>
                             <tr>
-                                <td>BLR1</td>
-                                <td>Bangalore, India</td>
+                                <td class="white">BLR1</td>
+                                <td class="grigino">Bangalore, India</td>
                                 <td>
-                                    <a href="" class="pull-right" >></a>
-                                    <a href="" class="pull-right">Test speed</a>
+                                    <a href="" class="pull-right m-10" >></a>
+                                    <a href="" class="pull-right m-10">Test speed</a>
                                 </td>
                             </tr>
                             <tr>
-                                <td>FRA1</td>
-                                <td>Frankfurt, German</td>
+                                <td class="white">FRA1</td>
+                                <td class="grigino">Frankfurt, German</td>
                                 <td>
-                                    <a href="" class="pull-right" >></a>
-                                    <a href="" class="pull-right">Test speed</a>
+                                    <a href="" class="pull-right m-10" >></a>
+                                    <a href="" class="pull-right m-10">Test speed</a>
                                 </td>
                             </tr>
                             <tr>
-                                <td>LON1</td>
-                                <td>London, UK</td>
+                                <td class="white">LON1</td>
+                                <td class="grigino">London, UK</td>
                                 <td>
-                                    <a href="" class="pull-right" >></a>
-                                    <a href="" class="pull-right">Test speed</a>
+                                    <a href="" class="pull-right m-10" >></a>
+                                    <a href="" class="pull-right m-10">Test speed</a>
                                 </td>
                             </tr>
                             <tr>
-                                <td>ANYC1</td>
-                                <td>New York, USA</td>
+                                <td class="white">ANYC1</td>
+                                <td class="grigino">New York, USA</td>
                                 <td>
-                                    <a href="" class="pull-right" >></a>
-                                    <a href="" class="pull-right">Test speed</a>
+                                    <a href="" class="pull-right m-10" >></a>
+                                    <a href="" class="pull-right m-10">Test speed</a>
                                 </td>
                             </tr>
                         </table>
@@ -273,51 +274,51 @@
                     <div class="col-sm-6">
                         <table class="table">
                             <tr>
-                                <td>AMS2</td>
-                                <td>Amsterdam, Nethelands</td>
-                                <td>
-                                    <a href="" class="pull-right" >></a>
-                                    <a href="" class="pull-right">Test speed</a>
+                                <td class="white no-border">AMS2</td>
+                                <td class="grigino no-border">Amsterdam, Nethelands</td>
+                                <td class="no-border">
+                                    <a href="" class="pull-right m-10" >></a>
+                                    <a href="" class="pull-right m-10">Test speed</a>
                                 </td>
                             </tr>
                             <tr>
-                                <td>AMS3</td>
-                                <td>Amsterdam, Nethelands</td>
+                                <td class="white">AMS3</td>
+                                <td class="grigino">Amsterdam, Nethelands</td>
                                 <td>
-                                    <a href="" class="pull-right" >></a>
-                                    <a href="" class="pull-right">Test speed</a>
+                                    <a href="" class="pull-right m-10" >></a>
+                                    <a href="" class="pull-right m-10">Test speed</a>
                                 </td>
                             </tr>
                             <tr>
-                                <td>BLR1</td>
-                                <td>Bangalore, India</td>
+                                <td class="white">BLR1</td>
+                                <td class="grigino">Bangalore, India</td>
                                 <td>
-                                    <a href="" class="pull-right" >></a>
-                                    <a href="" class="pull-right">Test speed</a>
+                                    <a href="" class="pull-right m-10" >></a>
+                                    <a href="" class="pull-right m-10">Test speed</a>
                                 </td>
                             </tr>
                             <tr>
-                                <td>FRA1</td>
-                                <td>Frankfurt, German</td>
+                                <td class="white">FRA1</td>
+                                <td class="grigino">Frankfurt, German</td>
                                 <td>
-                                    <a href="" class="pull-right" >></a>
-                                    <a href="" class="pull-right">Test speed</a>
+                                    <a href="" class="pull-right m-10" >></a>
+                                    <a href="" class="pull-right m-10">Test speed</a>
                                 </td>
                             </tr>
                             <tr>
-                                <td>LON1</td>
-                                <td>London, UK</td>
+                                <td class="white">LON1</td>
+                                <td class="grigino">London, UK</td>
                                 <td>
-                                    <a href="" class="pull-right" >></a>
-                                    <a href="" class="pull-right">Test speed</a>
+                                    <a href="" class="pull-right m-10" >></a>
+                                    <a href="" class="pull-right m-10">Test speed</a>
                                 </td>
                             </tr>
                             <tr>
-                                <td>ANYC1</td>
-                                <td>New York, USA</td>
+                                <td class="white">ANYC1</td>
+                                <td class="grigino">New York, USA</td>
                                 <td>
-                                    <a href="" class="pull-right" >></a>
-                                    <a href="" class="pull-right">Test speed</a>
+                                    <a href="" class="pull-right m-10" >></a>
+                                    <a href="" class="pull-right m-10">Test speed</a>
                                 </td>
                             </tr>
                         </table>
@@ -334,14 +335,14 @@
                 <div class="center-block">
                     <div class="inline-block v-al-m">
                         <span class="
-                        glyphicon glyphicon-chevron-left"></span>
+                        glyphicon glyphicon-chevron-left glyph-size grigio"></span>
                     </div>
                     <div class="inline-block v-al-m">
                         <div class="panel">
                             <div class="panel-body">
-                                <img src="img/image.png" alt="" class="img-responsive center-block">
-                                <p>
-                                    "We've been able to make scaling the technical infrastructure of our business cost effective and efficient."
+                                <img src="img/image.png" alt="" class="img-responsive center-block my-img-resize m-bot-20">
+                                <p class="grigio lead">
+                                    "We've been able to make scaling the technical<br>infrastructure of our business cost effective and efficient."
                                 </p>
                                 <p>
                                    <strong>Rick O'Toole</strong><br>Co-founder and CTO
@@ -357,7 +358,7 @@
                         </div>
                     </div>
                     <div class="inline-block v-al-m">
-                        <span class="glyphicon glyphicon-chevron-right"></span>
+                        <span class="glyphicon glyphicon-chevron-right glyph-size"></span>
                     </div>
                 </div>
             </div>
@@ -366,8 +367,8 @@
 <!-- inizio sezione Call to Action (Main)-->
         <section class="call-to-action">
             <div class="container text-center">
-                <h1>Get started now.</h1>
-                <button>
+                <h1 class="white">Get started now.</h1>
+                <button class="cta-btn strong">
                     Create your account
                 </button>
             </div>
@@ -382,13 +383,13 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-4 col-sm-12">
-                        <img src="img/logo-small.svg" alt="">
+                        <img src="img/logo-small.svg" alt="" class="m-bot-10">
                         <p>
                             <strong>© 2018 DigitalOcean, LLC. All rights reserved.</strong> 
                             <br>
                             Proudly made in NY
                         </p>
-                        <ul>
+                        <ul class="lead">
                             <li class="inline-block"><a href=""><i class="fa fa-twitter" aria-hidden="true"></a></i></li>
                             <li class="inline-block"><a href=""><i class="fa fa-facebook-official" aria-hidden="true"></a></i></li>
                             <li class="inline-block"><a href=""><i class="fa fa-instagram" aria-hidden="true"></a></i></li>
@@ -398,7 +399,7 @@
                     </div>
 
                     <div class="col-sm-6 col-md-2">
-                        <h4>Company</h4>
+                        <h4 class="white">Company</h4>
                         <ul>
                             <li><a href="">About</a></li>
                             <li><a href="">Leadership</a></li>
@@ -413,7 +414,7 @@
                         </ul>
                     </div>
                     <div class="col-sm-6 col-md-2">
-                        <h4>Products</h4>
+                        <h4 class="white">Products</h4>
                         <ul>
                             <li><a href="">Droplets</a></li>
                             <li><a href="">Spaces</a></li>
@@ -429,7 +430,7 @@
                         </ul>
                     </div>
                     <div class="col-sm-6 col-md-2">
-                        <h4>Community</h4>
+                        <h4 class="white">Community</h4>
                         <ul>
                             <li><a href="">Tutorials</a></li>
                             <li><a href="">Meetups</a></li>
@@ -444,7 +445,7 @@
                         </ul>
                     </div>
                     <div class="col-sm-6 col-md-2">
-                        <h4>Support</h4>
+                        <h4 class="white">Support</h4>
                         <ul>
                             <li><a href="">Contact Support</a></li>
                             <li><a href="">FAQ</a></li>
