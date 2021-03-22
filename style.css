@@ -1,0 +1,36 @@
+/* sezione jumbotron */
+.my-jumbotron {
+    background-image: url(img/bg-banner-home.jpg);
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+v-al
+
+.float-r {
+    float: right;
+}
+
+.float-l {
+    float: left;
+}
+
+.mw-20 {
+    max-width: 20px;
+}
+
+.aziende-varie {
+    background-color: #f3f5f9;
+}
+
+.col-sm-offset-1.col-sm-3 .list-group .list-group-item {
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
+}
+
+.min-h {
+    min-height: 160px;
+}
