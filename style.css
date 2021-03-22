@@ -23,7 +23,7 @@
     max-width: 20px;
 }
 
-.aziende-varie {
+.aziende-varie, .carousel {
     background-color: #f3f5f9;
 }
 
@@ -52,3 +52,5 @@
   .blue {
       background-color: #006aff;
   }
+
+  
