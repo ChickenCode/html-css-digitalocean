@@ -212,6 +212,26 @@
       margin-top: 10px;
   }
 
+  .shark {
+      height: 50px;
+      background-color: #0048c6;
+      border-radius: 5px;
+      padding: 5px 0;
+  }
+
+  .help {
+      font-size: smaller;
+      padding: 10px 30px 10px 10px ;
+      border-radius: 5px;
+      background-color: white;
+  }
+
+  .chatbot {
+      position: fixed;
+      bottom: 30px;
+      right: 30px;
+  }
+
 
   
 
