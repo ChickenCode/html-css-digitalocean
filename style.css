@@ -199,25 +199,7 @@
       margin-top: 10px;
   }
 
-  .shark {
-      height: 50px;
-      background-color: #0048c6;
-      border-radius: 5px;
-      padding: 5px 0;
-  }
 
-  .help {
-      font-size: smaller;
-      padding: 10px 30px 10px 10px ;
-      border-radius: 5px;
-      background-color: white;
-  }
-
-  .chatbot {
-      position: fixed;
-      bottom: 30px;
-      right: 30px;
-  }
 
   nav img {
       max-width: 150px;
@@ -278,6 +260,56 @@
      }
     
  }
+
+ .help {
+     position: relative;
+     background-color: white;
+     padding: 10px 30px 0 10px;
+     border-radius: 5px ;
+ }
+
+
+ .triangle {
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 10px solid white;
+    position: absolute;
+    bottom: -10px;
+    left: 50px;
+ }
+
+ .chatbot {
+     position: fixed;
+     bottom: 30px;
+     right: 30px;
+ }
+
+ .shark-img img {
+     max-width: 70px;
+     background-color: #0048c6;
+     border-radius: 5px;
+     margin-top: 20px;
+     padding-top: 5px;
+     padding-bottom: 5px;
+ }
+
+ .shape {
+     background-color: red;
+     border-radius: 50%;
+     height: 25px;
+     width: 25px;
+     text-align: center;
+     color: white;
+     border: 3px solid white;
+     position: absolute;
+     left: -10px;
+     bottom: 50px;
+ }
+
+
+
   
 
 
