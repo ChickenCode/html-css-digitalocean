@@ -38,10 +38,6 @@
     border-bottom: none;
 }
 
-.min-h {
-    min-height: 170px;
-}
-
 .carousel-size {
     max-width: 600px
 }
